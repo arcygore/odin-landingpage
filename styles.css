@@ -1,0 +1,45 @@
+.container {
+    font-family: "roboto", sans-serif;
+}
+
+.header, .hero-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-links, .hero-text {
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 500px;
+}
+
+.featured-image {
+    width: 100px;
+}
+
+.featured-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-title {
+    display: flex;
+    align-self: top;
+}
+
+.featured-items {
+    display: flex;
+    flex-direction: row;
+    align-self: top;
+    gap: 100px;
+}
